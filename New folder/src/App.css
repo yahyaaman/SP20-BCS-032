@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e5e5e5;
+    display: grid;
+    place-items: center;
+}
+
+.cvPage {
+    width: 35%;
+    height: 46.5vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4);
+}
+
+.header {
+    display: flex;
+    position: relative;
+}
+
+.infoContainer {
+    width: 100%;
+    padding: 6% 0 6% 0;
+    position: relative;    
+}
+
+.infoContainer h3 {
+    font-size: 2.6vw;
+    line-height: 0.9;
+    width: 40%;
+    text-transform: uppercase;
+    margin-left: 5%;
+    font-weight: 200;
+}
+
+.infoContainer span {
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.infoContainer p {
+    margin-left: 5%;
+    word-spacing: 0.25vw;
+    letter-spacing: 0.12vw;
+    font-size: 1vw;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    right: 4vw;
+    width: 10vw;
+    height: 95%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.horizontalLine {
+    width: 95%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    margin: 2% 0 1% 5%;
+}
+
+.verticalLine {
+    position: absolute;
+    top: 0;
+    right: 1.3vw;
+    height: 100%;
+    width: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.blackBox {
+    position: absolute;
+    bottom: 3vw;
+    right: 0.7vw;
+    width: 1.3vw;
+    height: 12%;
+    background-color: #000;
+}
+
+.cvBody {
+    display: flex;
+    flex: 1;
+}
+
+.leftSection {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBar {
+    width: 88%;
+    background-color: #000;
+    align-self: end;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw;
+    margin-bottom: 0.3vw;
+}
+
+.infoBar h5 {
+    font-size: 0.7vw;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.infoBar p {
+    font-size: 0.6vw;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contentContainer {
+    margin: 1.2vw 2.5vw 0 2.5vw;
+}
+
+.bodyTitle {
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    font-weight: 800;
+    margin-bottom: 0.5vw;
+}
+
+.contentContainer p {
+    font-size: 0.8vw;
+    margin-bottom: 0.5vw;
+}
+
+.experinceContainer {
+    margin-top: 0.8vw;
+}
+
+.experinceContainer h5 {
+    line-height: 2;
+    font-size: 0.85vw;
+    font-weight: 800;
+}
+
+.referenceContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.designation {
+    color: #888;
+    font-size: 0.8vw;
+    font-weight: 100;
+}
+.name {
+    color: #000;
+    font-size: 0.8vw;
+    font-weight: 100;
+}
+.company {
+    color: #555;
+    font-size: 0.8vw;
+    font-weight: 100;
+}
+
+.referenceContainer .referenceOne {
+    border-right: 2px solid #888;
+    padding-right: 1.2vw;
+}
+
+.rightSection {
+    width: 40%;
+    height: 100%;
+    background-color: #e5e5e5;
+}
+
+.rightSection .contentContainer {
+    padding-top: 1.2vw;
+}
+
+.educationContainer {
+    margin: 1vw 0 1.5vw 0;
+}
+
+ul {
+    margin-left: 1vw;
+    list-style-type: square;
+}
+
+ul li {
+    margin-top: 0.7vw;
+    font-size: 0.85vw;
+    font-weight: 600;
+}
