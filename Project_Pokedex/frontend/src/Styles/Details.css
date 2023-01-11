@@ -1,0 +1,411 @@
+.detailsContainer{
+    /* background-color: blue; */
+}
+
+.btn-container{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    /* background-color: aquamarine; */
+    align-items: center;
+    padding-left: 25rem;
+}
+
+.back-btn{
+    color:#e3350d;
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+}
+.detailsCard{
+    /* background-color: blue; */
+    width: 70rem;
+    height: 65rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px lightgray;
+    display: flex;
+}
+
+.left{
+    background-color: rgb(104, 144, 240);
+    flex:0.4;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.charId{
+    padding-left: 20px;
+    /* background-color: green; */
+}
+.charName{
+    /* background-color: brown; */
+    padding-left: 20px;
+}
+
+.idText{
+    color:white;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    text-align:start;
+    /* background-color: black; */
+
+}
+.nameText{
+    color:white;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.japannese{
+    color: white;
+    font-size: 70px;
+    /* background-color: aquamarine; */
+    width: 100%;
+    text-align: center;
+    font-weight: 500px;
+    opacity: 0.4;
+    font-family: Montserrat,sans-serif;
+}
+
+#circle {
+    background: rgb(127, 155, 220);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContainer{
+    /* background-color: purple; */
+    flex: 0.8;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 300px;
+}
+
+
+
+
+.right{
+    background-color: white;
+    flex:0.6;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+}
+
+/*Loader animation*/
+.loader-container {
+	width: 200px;
+	height: 60px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.loader-circle {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: #e3350d;
+	left: 15%;
+	transform-origin: 50%;
+	animation: loader-circle 0.5s alternate infinite ease;
+}
+
+@keyframes loader-circle {
+	0% {
+		top: 60px;
+		height: 5px;
+		border-radius: 50px 50px 25px 25px;
+		transform: scaleX(1.7);
+	}
+	40% {
+		height: 20px;
+		border-radius: 50%;
+		transform: scaleX(1);
+	}
+	100% {
+		top: 0%;
+	}
+}
+
+.loader-circle:nth-child(2) {
+	left: 45%;
+	animation-delay: 0.2s;
+}
+
+.loader-circle:nth-child(3) {
+	left: auto;
+	right: 15%;
+	animation-delay: 0.3s;
+}
+
+.shadow {
+	width: 20px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #e3350d;
+	position: absolute;
+	top: 62px;
+	transform-origin: 50%;
+	z-index: -1;
+	left: 15%;
+	filter: blur(1px);
+	animation: shadow 0.5s alternate infinite ease;
+}
+
+@keyframes shadow {
+	0% {
+		transform: scaleX(1.5);
+	}
+	40% {
+		transform: scaleX(1);
+		opacity: 0.7;
+	}
+	100% {
+		transform: scaleX(0.2);
+		opacity: 0.4;
+	}
+}
+
+.shadow:nth-child(4) {
+	left: 45%;
+	animation-delay: 0.2s;
+}
+
+.shadow:nth-child(5) {
+	left: auto;
+	right: 15%;
+	animation-delay: 0.3s;
+}
+
+
+.rock {
+background-color: rgb(184, 160, 56);
+}
+.ghost {
+background-color: rgb(112, 88, 152);
+}
+.electric {
+background-color: rgb(248, 208, 48);
+}
+.bug {
+background-color: rgb(168, 184, 32);
+}
+.poison {
+background-color: rgb(160, 64, 160);
+}
+.normal {
+background-color: rgb(196, 196, 164);
+}
+.fairy {
+background-color: rgb(248, 88, 136);
+}
+.fire {
+background-color: rgb(240, 128, 48);
+}
+.grass {
+background-color:rgb(120, 200, 80);
+}
+.water {
+background-color:rgb(104, 144, 240);
+}
+.ground{
+    background-color:rgb(224, 192, 104);
+}
+.fighting{
+    background-color: rgb(240, 128, 48);
+}
+
+.dragon{
+    background-color: rgb(112, 56, 248);
+}
+.psychic{
+    background-color:rgb(248, 88, 136);
+}
+.dark{
+    background-color:rgb(112, 88, 72);
+}
+
+.ice{
+    background-color:rgb(152, 216, 216);;
+}
+
+.steel{
+    background-color:rgb(184, 184, 208);
+}
+
+.steelcardcircle {
+    background-color: rgb(193, 193, 209);;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.icecardcircle {
+    background-color: rgb(179, 225, 225);;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.darkcardcircle {
+background-color: rgb(117, 100, 89);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.psychiccardcircle {
+    background-color: rgb(244, 125, 161);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.dragoncardcircle {
+    background-color: rgb(134, 86, 250);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.fightingcardcircle {
+    background-color: rgb(244, 147, 77);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.rockcardcircle {
+background-color: rgb(197, 176, 89);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.ghostcardcircle {
+background-color: rgb(125, 107, 155);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.electriccardcircle {
+background-color: rgb(249, 223, 120);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.bugcardcircle {
+background-color: rgb(181, 197, 52);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.poisoncardcircle {
+background-color: rgb(167, 104, 167);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.normalcardcircle {
+background-color: rgb(205, 205, 185);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.fairycardcircle {
+background-color: rgb(244, 125, 161);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.firecardcircle {
+background-color: rgb(244, 147, 77);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.grasscardcircle {
+background: rgb(153, 208, 125);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.watercardcircle {
+background-color:rgb(133, 165, 240);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.groundcardcircle{
+background-color:rgb(237, 208, 129);
+border-radius: 50%;
+width: 300px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}

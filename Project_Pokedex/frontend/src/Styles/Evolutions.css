@@ -1,0 +1,31 @@
+.evolutionsBody{
+    width: 100%;
+    height: 50rem;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.evolution1, .evolution2, .evolution3{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+
+#evocircle {
+    background: rgb(127, 155, 220);
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evoimg{
+    width: 180px;
+}

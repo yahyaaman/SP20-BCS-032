@@ -1,0 +1,78 @@
+*{
+    font-family: Montserrat,sans-serif;
+}
+.detailsContainer{
+    /* background-color:black; */
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.detailsBody{
+    /* background-color: aqua; */
+    width: 70%;
+}
+
+.details{
+    display:flex;
+    flex-direction:row;
+    width: 70%;
+    height: 25rem;
+    /* background-color: aqua; */
+}
+
+.trainingData{
+    display:flex;
+    flex-direction:row;
+    height: 20rem;
+    /* background-color: aquamarine; */
+    width: 70%;
+}
+
+.leftTraining{
+    flex:0.1;
+}
+
+.rightTraining{
+    flex:0.1;
+}
+
+.detailsLeft{
+    /* background-color: blue; */
+    flex:0.5;
+    display: flex;
+    flex-direction:column;
+}
+
+.detailsRight{
+    /* background-color: blue; */
+    flex:0.5;
+    display: flex;
+    flex-direction:column;
+}
+
+.species{
+    /* background-color: gold; */
+    flex:0.1;
+}
+
+.height{
+    /* background-color: green; */
+    flex:0.1;
+}
+
+.weight{
+    /* background-color: red; */
+    flex:0.1;
+}
+
+.abilities{
+    /* background-color: yellow; */
+    flex:0.5;
+}
+
+.gender{
+    /* background-color: grey; */
+    flex:0.1;
+}
+
+

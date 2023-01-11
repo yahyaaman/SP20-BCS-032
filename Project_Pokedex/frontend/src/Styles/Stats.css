@@ -1,0 +1,45 @@
+.stats-container{
+    /* background-color: green; */
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.stats-body{
+    display: flex;
+    flex-direction: row;
+    /* background-color: bisque; */
+    height:25rem;
+}
+
+.stats-name{
+    flex:1;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.stats-num{
+    flex:1;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.stats-bar{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* background-color: red; */
+}
+
+.stats-total{
+    flex:1;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}

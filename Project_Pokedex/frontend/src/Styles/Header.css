@@ -1,0 +1,57 @@
+.header{
+    width: 100%;
+    height: 4rem;
+    background-color: #222831;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-right: 10px; */
+    
+    
+}
+
+.links-button{
+  /* text-transform: uppercase; */
+  text-align: center;
+  height: 3rem;
+  width: 100px;
+  transition: 0.5s;
+  margin:20px;
+}
+
+.links-button:hover{
+  background-color: #ec0b36 url(pixel.png);
+  transition-delay: 0.8s;
+  background-size: 100px;
+  animation:animate 0.8s steps(8) forwards;
+}
+
+.logo-container{
+  width: 40px;
+  height: 40px;
+  /* background-color: blue; */
+  border-radius: 50%;
+  border-color: black;
+  /* border-width: 1px; */
+  /* border:solid; */
+}
+
+.heading{
+  color: white;
+  width:60rem;
+  display:flex;
+  justify-content:center;
+}
+
+.profile-container{
+    width: 40px;
+    height: 40px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    border-color: black;
+    border-width: 1px;
+    border:solid;
+}
+
+
+
